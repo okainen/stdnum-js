@@ -1,0 +1,49 @@
+{
+  "extends": ["airbnb"],
+  "env": {
+    "browser": true,
+    "jest": true,
+    "node": true
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "requireConfigFile": false,
+    "babelOptions": {
+      "babelrc": false,
+      "configFile": false
+    }
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": ["node_modules", "src/", "/src/components"],
+        "extensions": [".js", ".jsx"],
+        "paths": ["./src", "./src/components"]
+      }
+    }
+  },
+  "rules": {
+    "camelcase": 0,
+    "default-param-last": 0,
+    "max-len": [
+      2,
+      {
+        "code": 100,
+        "ignoreComments": true,
+        "ignoreStrings": true,
+        "ignoreRegExpLiterals": true,
+        "ignoreUrls": true
+      }
+    ],
+    "no-shadow": 0,
+    "no-underscore-dangle": 0,
+    "no-unused-vars": [2, { "vars": "all", "args": "all", "argsIgnorePattern": "^_$" }],
+    "operator-linebreak": 0,
+    "prefer-destructuring": 2,
+    "semi": [2, "never"],
+
+    "import/no-cycle": 0,
+    "import/no-import-module-exports": 0,
+    "import/prefer-default-export": 0
+  }
+}
