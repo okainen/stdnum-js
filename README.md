@@ -2,7 +2,7 @@
 
 ![Build](https://github.com/koblas/stdnum-js/workflows/Node.js%20CI/badge.svg)
 
-JavaScript (TypeScript) package to validate most all national numbers, with a focus on
+JavaScript package to validate most all national numbers, with a focus on
 VAT, Person and Tax identifiers.
 
 ## Quick start
