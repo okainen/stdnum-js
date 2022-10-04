@@ -1,1 +1,1 @@
-export * as npwp from './npwp'
+export { default as npwp } from './npwp'

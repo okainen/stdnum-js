@@ -1,1 +1,1 @@
-export * as nrt from './nrt'
+export { default as nrt } from './nrt'

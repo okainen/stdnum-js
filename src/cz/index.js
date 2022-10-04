@@ -1,2 +1,2 @@
-export * as dic from './dic'
-export * as rc from './rc'
+export { default as dic } from './dic'
+export { default as rc } from './rc'

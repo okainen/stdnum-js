@@ -1,3 +1,3 @@
-export * as nie from './nie'
-export * as cedula from './cedula'
-export * as rut from './rut'
+export { default as nie } from './nie'
+export { default as cedula } from './cedula'
+export { default as rut } from './rut'

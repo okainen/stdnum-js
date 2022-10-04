@@ -1,2 +1,2 @@
-export * as cnic from './cnic'
-export * as ntn from './ntn'
+export { default as cnic } from './cnic'
+export { default as ntn } from './ntn'

@@ -1,4 +1,5 @@
 import * as exceptions from '../../exceptions'
+import nullishlyCoalesce from '../nullishlyCoalesce'
 
 // Map visually similar unicode values to ASCII
 // - solves the cut-n-paste from PDF/Word
@@ -277,7 +278,7 @@ export function cleanUnicode(value, deletechars = ' ', stripPrefix) {
 
   // Don't use value.split("") -- doesn't work for "high" unicode
   const cleaned = [...value]
-    .map((c) => mapped[c] ?? c)
+    .map((c) => nullishlyCoalesce(mapped[c], c))
     .filter((c) => !deletechars.includes(c))
     .join('')
     .toLocaleUpperCase()

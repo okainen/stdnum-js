@@ -17,6 +17,7 @@
 
 import * as exceptions from '../exceptions'
 import { strings } from '../util'
+import nullishlyCoalesce from '../util/nullishlyCoalesce'
 // import { mod11mod10Validate } from '../util/checksum';
 
 function clean(input) {
@@ -36,10 +37,10 @@ function buildMatch(fmt) {
 
     return {
       match: true,
-      f: m[1] ?? '',
-      b: m[2] ?? '',
-      u: m[3] ?? '',
-      p: m[4] ?? '',
+      f: nullishlyCoalesce(m[1], ''),
+      b: nullishlyCoalesce(m[2], ''),
+      u: nullishlyCoalesce(m[3], ''),
+      p: nullishlyCoalesce(m[4], ''),
     }
   }
 }
@@ -147,7 +148,7 @@ const impl = {
       .substring(0, 10)
       .split('')
       .forEach((v) => {
-        counter[v] = (counter[v] ?? 0) + 1
+        counter[v] = nullishlyCoalesce(counter[v], 0) + 1
       })
     const more = Object.values(counter)
     if (!more.some((v) => v === 2 || v === 3)) {
@@ -166,3 +167,4 @@ const impl = {
 export const {
   name, localName, abbreviation, validate, format, compact,
 } = impl
+export default impl

@@ -1,1 +1,1 @@
-export * as nid from './nid'
+export { default as nid } from './nid'

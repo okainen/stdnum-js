@@ -1,2 +1,2 @@
-export * as dph from './dph'
-export * as rc from './rc'
+export { default as dph } from './dph'
+export { default as rc } from './rc'

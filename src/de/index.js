@@ -1,4 +1,4 @@
-export * as idnr from './idnr'
-export * as stnr from './stnr'
-export * as svnr from './svnr'
-export * as vat from './vat'
+export { default as idnr } from './idnr'
+export { default as stnr } from './stnr'
+export { default as svnr } from './svnr'
+export { default as vat } from './vat'

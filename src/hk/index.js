@@ -1,1 +1,1 @@
-export * as hkid from './hkid'
+export { default as hkid } from './hkid'

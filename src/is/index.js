@@ -1,2 +1,2 @@
-export * as kennitala from './kennitala'
-export * as vsk from './vsk'
+export { default as kennitala } from './kennitala'
+export { default as vsk } from './vsk'

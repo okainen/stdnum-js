@@ -1,1 +1,1 @@
-export * as mst from './mst'
+export { default as mst } from './mst'

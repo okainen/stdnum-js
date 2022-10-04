@@ -1,1 +1,1 @@
-export * as ubn from './ubn'
+export { default as ubn } from './ubn'

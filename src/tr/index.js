@@ -1,2 +1,2 @@
-export * as tckimlik from './tckimlik'
-export * as vkn from './vkn'
+export { default as tckimlik } from './tckimlik'
+export { default as vkn } from './vkn'

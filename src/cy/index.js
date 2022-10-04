@@ -1,1 +1,1 @@
-export * as vat from './vat'
+export { default as vat } from './vat'

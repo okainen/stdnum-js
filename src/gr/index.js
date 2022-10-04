@@ -1,2 +1,2 @@
-export * as amka from './amka'
-export * as vat from './vat'
+export { default as amka } from './amka'
+export { default as vat } from './vat'

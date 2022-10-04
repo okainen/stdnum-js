@@ -1,4 +1,4 @@
-export * as cif from './cif'
-export * as dni from './dni'
-export * as nie from './nie'
-export * as nif from './nif'
+export { default as cif } from './cif'
+export { default as dni } from './dni'
+export { default as nie } from './nie'
+export { default as nif } from './nif'

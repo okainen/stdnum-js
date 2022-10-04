@@ -1,3 +1,3 @@
-export * as aic from './aic'
-export * as codicefiscale from './codicefiscale'
-export * as iva from './iva'
+export { default as aic } from './aic'
+export { default as codicefiscale } from './codicefiscale'
+export { default as iva } from './iva'

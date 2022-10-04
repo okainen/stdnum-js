@@ -1,1 +1,1 @@
-export * as tin from './tin'
+export { default as tin } from './tin'

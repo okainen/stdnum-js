@@ -16,6 +16,7 @@
 import * as exceptions from '../exceptions'
 import { strings } from '../util'
 import { iso7064mod10x11validate } from '../util/iso7064'
+import nullishlyCoalesce from '../util/nullishlyCoalesce'
 
 function clean(input) {
   return strings.cleanUnicode(input, ' -./,')
@@ -66,7 +67,7 @@ const impl = {
       .split('')
       .map((v) => parseInt(v, 10))
       .forEach((v) => {
-        counter[v] = (counter[v] ?? 0) + 1
+        counter[v] = nullishlyCoalesce(counter[v], 0) + 1
       })
     const more = Object.values(counter).filter((v) => v > 1)
     if (more.length !== 1 && [2, 3].includes(more[0])) {
@@ -89,3 +90,4 @@ const impl = {
 export const {
   name, localName, abbreviation, validate, format, compact,
 } = impl
+export default impl

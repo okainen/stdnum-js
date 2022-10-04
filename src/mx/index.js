@@ -1,3 +1,3 @@
-export * as clabe from './clabe'
-export * as curp from './curp'
-export * as rfc from './rfc'
+export { default as clabe } from './clabe'
+export { default as curp } from './curp'
+export { default as rfc } from './rfc'

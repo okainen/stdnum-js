@@ -17,6 +17,7 @@
 import * as exceptions from '../exceptions'
 import { strings } from '../util'
 import { weightedSum } from '../util/checksum'
+import nullishlyCoalesce from '../util/nullishlyCoalesce'
 
 const PREFIX = ['УНП', 'УНП', 'UNP', 'UNP']
 const alphabet = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -33,7 +34,7 @@ function clean(input) {
     null,
   )
 
-  return [v2 ?? value, null]
+  return [nullishlyCoalesce(v2, value), null]
 }
 
 const impl = {
@@ -105,3 +106,4 @@ const impl = {
 export const {
   name, localName, abbreviation, validate, format, compact,
 } = impl
+export default impl

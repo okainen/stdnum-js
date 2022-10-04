@@ -1,2 +1,2 @@
-export * as hp from './hp'
-export * as idnr from './idnr'
+export { default as hp } from './hp'
+export { default as idnr } from './idnr'

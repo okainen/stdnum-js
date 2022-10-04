@@ -1,1 +1,1 @@
-export * as coe from './coe'
+export { default as coe } from './coe'

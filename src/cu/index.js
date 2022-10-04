@@ -1,1 +1,1 @@
-export * as ni from './ni'
+export { default as ni } from './ni'

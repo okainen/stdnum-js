@@ -1,3 +1,3 @@
-export * as cpf from './cpf'
-export * as cpj from './cpj'
-export * as cr from './cr'
+export { default as cpf } from './cpf'
+export { default as cpj } from './cpj'
+export { default as cr } from './cr'

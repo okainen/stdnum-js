@@ -1,1 +1,1 @@
-export * as nipt from './nipt'
+export { default as nipt } from './nipt'

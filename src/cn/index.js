@@ -1,2 +1,2 @@
-export * as ric from './ric'
-export * as uscc from './uscc'
+export { default as ric } from './ric'
+export { default as uscc } from './uscc'

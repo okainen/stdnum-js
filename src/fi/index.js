@@ -1,3 +1,3 @@
-export * as alv from './alv'
-export * as hetu from './hetu'
-export * as ytunnus from './ytunnus'
+export { default as alv } from './alv'
+export { default as hetu } from './hetu'
+export { default as ytunnus } from './ytunnus'

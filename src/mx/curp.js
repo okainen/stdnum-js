@@ -15,6 +15,7 @@
 
 import * as exceptions from '../exceptions'
 import { isValidDateCompactYYMMDD, strings } from '../util'
+import nullishlyCoalesce from '../util/nullishlyCoalesce'
 
 function clean(input) {
   return strings.cleanUnicode(input, ' ')
@@ -199,10 +200,7 @@ const impl = {
     const check = value
       .substr(0, 17)
       .split('')
-      .reduce(
-        (acc, c, idx) => acc + (checkAlphabetDict[c] ?? 0) * (18 - idx),
-        0,
-      )
+      .reduce((acc, c, idx) => acc + nullishlyCoalesce(checkAlphabetDict[c], 0) * (18 - idx), 0)
 
     const checkStr = String((10 - (check % 10)) % 10)
     if (checkStr !== value.substr(17, 1)) {
@@ -246,3 +244,4 @@ export function getBirthDate(input) {
 export const {
   name, localName, abbreviation, validate, format, compact,
 } = impl
+export default impl

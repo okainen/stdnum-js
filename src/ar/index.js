@@ -1,3 +1,3 @@
-export * as cbu from './cbu'
-export * as cuit from './cuit'
-export * as dni from './dni'
+export { default as cbu } from './cbu'
+export { default as cuit } from './cuit'
+export { default as dni } from './dni'
