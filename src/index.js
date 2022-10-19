@@ -80,9 +80,10 @@ import * as UY from './uy'
 import * as VE from './ve'
 import * as VN from './vn'
 import * as ZA from './za'
+import buildValidate from './util/buildValidate'
 
 // Live an uppercase world, to prevent keyword collisions
-export const stdnum = {
+const MAP = {
   AD,
   AL,
   AR,
@@ -165,6 +166,18 @@ export const stdnum = {
   VE,
   VN,
   ZA,
+}
+
+export const stdnum = {
+  ...MAP,
+  validate(countryCode, string) {
+    const validators = Object.values(MAP[countryCode])
+
+    if (validators) {
+      return buildValidate(validators)(string)
+    }
+    return { isValid: false }
+  },
 }
 
 export const personValidators = {

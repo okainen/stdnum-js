@@ -1,7 +1,5 @@
 # Country Standard Numbers
 
-![Build](https://github.com/koblas/stdnum-js/workflows/Node.js%20CI/badge.svg)
-
 JavaScript package to validate most all national numbers, with a focus on
 VAT, Person and Tax identifiers.
 
@@ -25,6 +23,17 @@ VAT, Person and Tax identifiers.
         isEntity, // false
     } = stdnum.BR.cpf.validate("390.533.447-05");
 
+    const {
+        abbreviation, // 'CPF'
+        isValid, // true
+        compact, // '39053344705'
+        isIndividual, // true
+        isEntity, // false
+        name, // 'Brazilian National Identifier'
+        localName, // 'Cadastro de Pessoas Físicas'
+        meaning, // 'Brazilian National Identifier (Cadastro de Pessoas Físicas)'
+    } = stdnum.validate("BR", "390.533.447-05")
+
 All country validators are in the "namespace" of the ISO country code.
 
 ## Supported Countries and Numbers
@@ -38,7 +47,7 @@ All country validators are in the "namespace" of the ISO country code.
 | Argentina              | AR   | DNI             | Person             | National Identity Document (Documento Nacional de Identidad)                        |
 | Austria                | AT   | Businessid      | Company            | Austrian Company Register Number                                                    |
 | Austria                | AT   | TIN             | Tax                | Austrian tax identification number (Abgabenkontonummer)                             |
-| Austria                | AT   | UID             | VAT                | Austrian VAT number (Umsatzsteuer-Identifikationsnummer)                            |
+| Austria                | AT   | UID             | Vat                | Austrian VAT number (Umsatzsteuer-Identifikationsnummer)                            |
 | Austria                | AT   | VNR             | Person             | Austrian social security number(Versicherungsnummer)                                |
 | Australia              | AU   | ABN             | Company            | Australian Business Number                                                          |
 | Australia              | AU   | ACN             | Company            | Australian Company Number                                                           |
@@ -158,7 +167,7 @@ All country validators are in the "namespace" of the ISO country code.
 | Romania                | RO   | CNP             | Person             | Cod Numeric Personal, Romanian Numerical Personal Code)                             |
 | Romania                | RO   | CUI             | Tax                | Codul Unic de Înregistrare, Romanian company identifier                             |
 | Romania                | RO   | ONRC            | Company            | Ordine din Registrul Comerţului, Romanian Trade Register identifier                 |
-| San Marcos             | SM   | COE             | Company            | Codice operatore economico, San Marino national tax number                          |
+| San Marino             | SM   | COE             | Company            | Codice operatore economico, San Marino national tax number                          |
 | Serbia                 | RS   | PIB             | Vat                | Poreski identifikacioni broj Tax identification number                              |
 | Serbia                 | RS   | JMBG            | Person             | Unique Master Citizen Number (Jedinstveni matični broj građana)                     |
 | Sweden                 | SE   | ORGNR           | Company            | Organisationsnummer, Swedish company number                                         |
