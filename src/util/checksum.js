@@ -22,12 +22,18 @@ function sumAllDigits(value) {
 export function weightedSum(
   value,
   {
-    alphabet = '0123456789', reverse = false, weights = [1], modulus = 0, sumByDigit = false,
+    alphabet = '0123456789',
+    reverse = false,
+    weights = [1],
+    modulus = 0,
+    sumByDigit = false,
   },
 ) {
   const wlen = weights.length
   const numbers = value.split('').map((v) => alphabet.indexOf(v))
-  const weighted = (reverse ? numbers.reverse() : numbers).map((v, idx) => v * weights[idx % wlen])
+  const weighted = (reverse ? numbers.reverse() : numbers).map(
+    (v, idx) => v * weights[idx % wlen],
+  )
 
   return weighted.reduce((acc, v) => {
     let vv = v
@@ -101,7 +107,7 @@ export function luhnChecksumValue(value, alphabet = '0123456789') {
 export function luhnChecksumDigit(value, alphabet = '0123456789') {
   const cs = luhnChecksumValue(`${value}${alphabet[0]}`)
 
-  return alphabet[alphabet.length - cs]
+  return alphabet[(alphabet.length - cs) % alphabet.length]
 }
 
 /*
@@ -150,7 +156,10 @@ function invArray(array) {
 export function verhoeffGenerate(array) {
   const invertedArray = invArray(array)
 
-  const value = invertedArray.reduce((c, v, idx) => verhoeffD[c][verhoeffP[(idx + 1) % 8][v]], 0)
+  const value = invertedArray.reduce(
+    (c, v, idx) => verhoeffD[c][verhoeffP[(idx + 1) % 8][v]],
+    0,
+  )
 
   return verhoeffInv[value]
 }
@@ -159,7 +168,10 @@ export function verhoeffGenerate(array) {
 export function verhoeffValidate(array) {
   const invertedArray = invArray(array)
 
-  const sum = invertedArray.reduce((c, v, idx) => verhoeffD[c][verhoeffP[idx % 8][v]], 0)
+  const sum = invertedArray.reduce(
+    (c, v, idx) => verhoeffD[c][verhoeffP[idx % 8][v]],
+    0,
+  )
 
   return sum === 0
 }

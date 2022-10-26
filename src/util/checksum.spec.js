@@ -1,4 +1,8 @@
-import { luhnChecksumDigit, luhnChecksumValue, mod11mod10Validate } from './checksum'
+import {
+  luhnChecksumDigit,
+  luhnChecksumValue,
+  mod11mod10Validate,
+} from './checksum'
 
 describe('util/checksum', () => {
   describe('luhnChecksumValue', () => {
@@ -8,8 +12,11 @@ describe('util/checksum', () => {
   })
 
   describe('luhnChecksumDigit', () => {
-    it('basic', () => {
-      expect(luhnChecksumDigit('7894')).toEqual('9')
+    it.each([
+      ['7894', '9'],
+      ['8667046', '0'],
+    ])('luhnChecksumDigit %s should return %s', (digits, expectedResult) => {
+      expect(luhnChecksumDigit(digits)).toEqual(expectedResult)
     })
   })
 
