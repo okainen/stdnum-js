@@ -1,4 +1,8 @@
-import { validStructure, validChecksum, toDateArray } from './personIdentifierHelpers'
+import {
+  validStructure,
+  validChecksum,
+  toDateArray,
+} from './personIdentifierHelpers'
 
 describe('personIdentifierHelpers', () => {
   const toDob = (string) => {
@@ -99,7 +103,10 @@ describe('personIdentifierHelpers', () => {
         })
 
         it('returns false when the checksum is invalid', () => {
-          const excludedChecksums = [twentiethCenturyChecksum, twentyfirstCenturyChecksum]
+          const excludedChecksums = [
+            twentiethCenturyChecksum,
+            twentyfirstCenturyChecksum,
+          ]
           const toCheck = range.filter((x) => !excludedChecksums.includes(x))
           toCheck.forEach((cs) => {
             const string = `${baseString}${cs}`
@@ -124,7 +131,10 @@ describe('personIdentifierHelpers', () => {
         })
 
         it('returns false when the checksum is invalid', () => {
-          const excludedChecksums = [twentiethCenturyChecksum, twentyfirstCenturyChecksum]
+          const excludedChecksums = [
+            twentiethCenturyChecksum,
+            twentyfirstCenturyChecksum,
+          ]
           const toCheck = range.filter((x) => !excludedChecksums.includes(x))
           toCheck.forEach((cs) => {
             const string = `${baseString}${cs}`
@@ -187,7 +197,10 @@ describe('personIdentifierHelpers', () => {
         })
 
         it('returns false when the checksum is invalid', () => {
-          const excludedChecksums = [twentiethCenturyChecksum, twentyfirstCenturyChecksum]
+          const excludedChecksums = [
+            twentiethCenturyChecksum,
+            twentyfirstCenturyChecksum,
+          ]
           const toCheck = range.filter((x) => !excludedChecksums.includes(x))
           toCheck.forEach((cs) => {
             const string = `${baseString}${cs}`
@@ -212,7 +225,10 @@ describe('personIdentifierHelpers', () => {
         })
 
         it('returns false when the checksum is invalid', () => {
-          const excludedChecksums = [twentiethCenturyChecksum, twentyfirstCenturyChecksum]
+          const excludedChecksums = [
+            twentiethCenturyChecksum,
+            twentyfirstCenturyChecksum,
+          ]
           const toCheck = range.filter((x) => !excludedChecksums.includes(x))
           toCheck.forEach((cs) => {
             const string = `${baseString}${cs}`

@@ -19,7 +19,21 @@ function clean(input) {
   return strings.cleanUnicode(input, ' -*')
 }
 
-const UNASSIGNED = ['00', '17', '18', '19', '20', '69', '73', '80', '81', '94', '95', '96', '97']
+const UNASSIGNED = [
+  '00',
+  '17',
+  '18',
+  '19',
+  '20',
+  '69',
+  '73',
+  '80',
+  '81',
+  '94',
+  '95',
+  '96',
+  '97',
+]
 
 const impl = {
   name: 'Malaysian National Registration Identity Card Number',

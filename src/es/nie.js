@@ -53,7 +53,11 @@ const impl = {
 
     const [first, body, check] = strings.splitAt(value, 1, 8)
 
-    if (!strings.isdigits(body) || !checkDigits.includes(first) || strings.isdigits(check)) {
+    if (
+      !strings.isdigits(body) ||
+      !checkDigits.includes(first) ||
+      strings.isdigits(check)
+    ) {
       return { isValid: false, error: new exceptions.InvalidComponent() }
     }
 

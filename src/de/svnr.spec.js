@@ -1,5 +1,9 @@
 import { validate, format } from './svnr'
-import { InvalidLength, InvalidComponent, InvalidChecksum } from '../exceptions'
+import {
+  InvalidLength,
+  InvalidComponent,
+  InvalidChecksum,
+} from '../exceptions'
 
 describe('de/svnr', () => {
   it('format:15070649C103', () => {

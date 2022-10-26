@@ -42,7 +42,9 @@ const impl = {
   format(input) {
     const [value] = clean(input)
 
-    return `${value.substr(0, value.length - 1)}-${value.substr(value.length - 1)}`
+    return `${value.substr(0, value.length - 1)}-${value.substr(
+      value.length - 1,
+    )}`
   },
 
   /**

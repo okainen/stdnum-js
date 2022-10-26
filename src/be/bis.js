@@ -13,7 +13,11 @@
 
 import * as exceptions from '../exceptions'
 import { strings } from '../util'
-import { validStructure, validChecksum, toDateArray } from './personIdentifierHelpers'
+import {
+  validStructure,
+  validChecksum,
+  toDateArray,
+} from './personIdentifierHelpers'
 
 function clean(input) {
   return strings.cleanUnicode(input, ' -.')
@@ -26,7 +30,8 @@ function toDob(firstSix) {
     [y, m - 40, d],
   ]
   // Allow 0 because a 0 month indicates an unknown DOB.
-  const dobArray = adjustedDateArrays.find((ada) => ada[1] >= 0 && ada[1] <= 12) || []
+  const dobArray =
+    adjustedDateArrays.find((ada) => ada[1] >= 0 && ada[1] <= 12) || []
   return dobArray.map((n) => `${n}`.padStart(2, '0')).join('')
 }
 

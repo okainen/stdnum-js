@@ -646,4 +646,7 @@ const citiesPairs = [
   [960, 'Calera de V. Rosales'],
 ]
 
-export const cities = citiesPairs.reduce((acc, [k, v]) => ({ ...acc, [k]: v }), {})
+export const cities = citiesPairs.reduce(
+  (acc, [k, v]) => ({ ...acc, [k]: v }),
+  {},
+)

@@ -1,5 +1,9 @@
 import { validate, format } from './cnp'
-import { InvalidLength, InvalidChecksum, InvalidComponent } from '../exceptions'
+import {
+  InvalidLength,
+  InvalidChecksum,
+  InvalidComponent,
+} from '../exceptions'
 
 describe('ro/cnp', () => {
   it('format:1630615123457', () => {

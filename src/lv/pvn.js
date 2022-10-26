@@ -61,7 +61,11 @@ const impl = {
     if (isIndividual) {
       const [dd, mm, yy, century] = strings.splitAt(value, 2, 4, 6, 7)
 
-      if (!isValidDateCompactYYYYMMDD(`${18 + parseInt(century, 10)}${yy}${mm}${dd}`)) {
+      if (
+        !isValidDateCompactYYYYMMDD(
+          `${18 + parseInt(century, 10)}${yy}${mm}${dd}`,
+        )
+      ) {
         return { isValid: false, error: new exceptions.InvalidComponent() }
       }
 

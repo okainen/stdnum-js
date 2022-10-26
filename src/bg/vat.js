@@ -98,7 +98,11 @@ const impl = {
       if (!checkLegal(value)) {
         return { isValid: false, error: new exceptions.InvalidChecksum() }
       }
-    } else if (!egn.validate(value).isValid && !pnf.validate(value).isValid && !checkOther(value)) {
+    } else if (
+      !egn.validate(value).isValid &&
+      !pnf.validate(value).isValid &&
+      !checkOther(value)
+    ) {
       return { isValid: false, error: new exceptions.InvalidChecksum() }
     }
 

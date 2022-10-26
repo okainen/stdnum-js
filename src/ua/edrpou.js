@@ -55,7 +55,9 @@ const impl = {
 
     const [front, check] = strings.splitAt(value, -1)
 
-    const weights = '345'.includes(front[0]) ? [7, 1, 2, 3, 4, 5, 6] : [1, 2, 3, 4, 5, 6, 7]
+    const weights = '345'.includes(front[0])
+      ? [7, 1, 2, 3, 4, 5, 6]
+      : [1, 2, 3, 4, 5, 6, 7]
 
     let sum = weightedSum(front, {
       weights,

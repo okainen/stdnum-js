@@ -62,7 +62,10 @@ const impl = {
       if (value.startsWith('HA') && cvalue < 500) {
         return { isValid: false, error: new exceptions.InvalidComponent() }
       }
-    } else if (value.length === 11 && (value.startsWith('GD8888') || value.startsWith('HA8888'))) {
+    } else if (
+      value.length === 11 &&
+      (value.startsWith('GD8888') || value.startsWith('HA8888'))
+    ) {
       if (!strings.isdigits(value.substr(6))) {
         return { isValid: false, error: new exceptions.InvalidFormat() }
       }

@@ -58,7 +58,12 @@ const impl = {
       return { isValid: false, error: new exceptions.InvalidComponent() }
     }
 
-    const [bankCode, cityCode, account, checksum] = strings.splitAt(value, 3, 6, 17)
+    const [bankCode, cityCode, account, checksum] = strings.splitAt(
+      value,
+      3,
+      6,
+      17,
+    )
 
     if (banksMap[parseInt(bankCode, 10)] === undefined) {
       return { isValid: false, error: new exceptions.InvalidComponent() }
