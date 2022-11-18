@@ -1,1 +1,1 @@
-export { default as pvn } from './pvn'
+export * as pvn from './pvn'

@@ -1,2 +1,2 @@
-export { default as ice } from './ice'
-export { default as ice9 } from './ice9'
+export * as ice from './ice'
+export * as ice9 from './ice9'

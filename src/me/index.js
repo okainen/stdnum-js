@@ -1,1 +1,1 @@
-export { default as jmbg } from './jmbg'
+export * as jmbg from './jmbg'

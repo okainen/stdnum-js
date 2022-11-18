@@ -1,2 +1,2 @@
-export { default as pin } from './pin'
-export { default as tin } from './tin'
+export * as pin from './pin'
+export * as tin from './tin'

@@ -1,3 +1,3 @@
-export { default as nip } from './nip'
-export { default as pesel } from './pesel'
-export { default as regon } from './regon'
+export * as nip from './nip'
+export * as pesel from './pesel'
+export * as regon from './regon'

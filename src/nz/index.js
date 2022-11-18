@@ -1,2 +1,2 @@
-export { default as ird } from './ird'
-export { default as bank } from './bank'
+export * as ird from './ird'
+export * as bank from './bank'

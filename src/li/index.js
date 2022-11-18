@@ -1,1 +1,1 @@
-export { default as peid } from './peid'
+export * as peid from './peid'

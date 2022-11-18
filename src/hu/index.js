@@ -1,1 +1,1 @@
-export { default as anum } from './anum'
+export * as anum from './anum'

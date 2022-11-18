@@ -1,1 +1,1 @@
-export { default as oib } from './oib'
+export * as oib from './oib'

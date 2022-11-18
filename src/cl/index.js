@@ -1,2 +1,2 @@
-export { default as run } from './run'
-export { default as rut } from './rut'
+export * as run from './run'
+export * as rut from './rut'

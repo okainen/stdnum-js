@@ -1,1 +1,1 @@
-export { default as tva } from './tva'
+export * as tva from './tva'

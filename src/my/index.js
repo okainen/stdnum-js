@@ -1,1 +1,1 @@
-export { default as nric } from './nric'
+export * as nric from './nric'

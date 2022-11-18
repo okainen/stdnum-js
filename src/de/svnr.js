@@ -14,7 +14,6 @@
 import * as exceptions from '../exceptions'
 import { strings } from '../util'
 import { weightedSum } from '../util/checksum'
-import nullishlyCoalesce from '../util/nullishlyCoalesce'
 
 const AREA_NUMBER_OPTIONS = [
   '02',
@@ -131,7 +130,7 @@ const impl = {
     const [frontWithAlpha, check] = strings.splitAt(value, 11)
     const front = frontWithAlpha
       .split('')
-      .map((c) => nullishlyCoalesce(checkAlphabetDict[c], c))
+      .map((c) => checkAlphabetDict[c] ?? c)
       .join('')
     const sum = weightedSum(front, {
       weights: [2, 1, 2, 5, 7, 1, 2, 1, 2, 1, 2, 1],
@@ -155,4 +154,3 @@ const impl = {
 export const {
   name, localName, abbreviation, validate, format, compact,
 } = impl
-export default impl

@@ -83,4 +83,3 @@ const impl = {
 export const {
   name, localName, abbreviation, compact, validate, format,
 } = impl
-export default impl

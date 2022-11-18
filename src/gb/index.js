@@ -1,3 +1,3 @@
-export { default as nino } from './nino'
-export { default as utr } from './utr'
-export { default as vat } from './vat'
+export * as nino from './nino'
+export * as utr from './utr'
+export * as vat from './vat'

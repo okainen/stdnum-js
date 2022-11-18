@@ -1,2 +1,2 @@
-export { default as ruc } from './ruc'
-export { default as cedula } from './cedula'
+export * as ruc from './ruc'
+export * as cedula from './cedula'

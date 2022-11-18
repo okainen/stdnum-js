@@ -1,1 +1,1 @@
-export { default as idno } from './idno'
+export * as idno from './idno'

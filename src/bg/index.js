@@ -1,3 +1,3 @@
-export { default as egn } from './egn'
-export { default as pnf } from './pnf'
-export { default as vat } from './vat'
+export * as egn from './egn'
+export * as pnf from './pnf'
+export * as vat from './vat'

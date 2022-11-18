@@ -1,1 +1,1 @@
-export { default as nit } from './nit'
+export * as nit from './nit'

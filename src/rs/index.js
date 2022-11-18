@@ -1,2 +1,2 @@
-export { default as pib } from './pib'
-export { default as jmbg } from './jmbg'
+export * as pib from './pib'
+export * as jmbg from './jmbg'

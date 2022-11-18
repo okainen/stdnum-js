@@ -1,3 +1,3 @@
-export { default as bsn } from './bsn'
-export { default as btw } from './btw'
-export { default as onderwijsnummer } from './onderwijsnummer'
+export * as bsn from './bsn'
+export * as btw from './btw'
+export * as onderwijsnummer from './onderwijsnummer'

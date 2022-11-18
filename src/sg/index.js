@@ -1,1 +1,1 @@
-export { default as uen } from './uen'
+export * as uen from './uen'

@@ -1,1 +1,1 @@
-export { default as ean } from './ean'
+export * as ean from './ean'

@@ -1,2 +1,2 @@
-export { default as ein } from './ein'
-export { default as ssn } from './ssn'
+export * as ein from './ein'
+export * as ssn from './ssn'

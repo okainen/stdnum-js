@@ -1,1 +1,1 @@
-export { default as inn } from './inn'
+export * as inn from './inn'

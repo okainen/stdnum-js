@@ -1,2 +1,2 @@
-export { default as ci } from './ci'
-export { default as ruc } from './ruc'
+export * as ci from './ci'
+export * as ruc from './ruc'

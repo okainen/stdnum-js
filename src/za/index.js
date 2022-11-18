@@ -1,2 +1,2 @@
-export { default as tin } from './tin'
-export { default as idnr } from './idnr'
+export * as tin from './tin'
+export * as idnr from './idnr'

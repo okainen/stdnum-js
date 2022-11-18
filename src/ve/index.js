@@ -1,1 +1,1 @@
-export { default as rif } from './rif'
+export * as rif from './rif'
