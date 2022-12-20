@@ -1,5 +1,9 @@
 import { validate, format } from './uid'
-import { InvalidLength, InvalidChecksum, InvalidComponent } from '../exceptions'
+import {
+  InvalidLength,
+  InvalidChecksum,
+  InvalidComponent,
+} from '../exceptions'
 
 describe('at/uid', () => {
   it('format:AT U13585627', () => {

@@ -15,7 +15,8 @@ import * as exceptions from '../exceptions'
 import { strings } from '../util'
 import { luhnChecksumDigit } from '../util/checksum'
 
-const checkDigits = 'ABCDEFGHJNPQRSUVW'
+const entityTypes = 'ABCDEFGHJNPQRSUVW'
+const letterCheckDigits = 'JABCDEFGHI'
 
 function clean(input) {
   return strings.cleanUnicode(input, ' -')
@@ -53,15 +54,19 @@ const impl = {
 
     const [first, body, check] = strings.splitAt(value, 1, 8)
 
-    if (!strings.isdigits(body) || !checkDigits.includes(first) || !strings.isdigits(check)) {
+    if (
+      !strings.isdigits(body) ||
+      !entityTypes.includes(first) ||
+      !(strings.isdigits(check) || letterCheckDigits.includes(check))
+    ) {
       return { isValid: false, error: new exceptions.InvalidComponent() }
     }
 
     const cs = parseInt(luhnChecksumDigit(body), 10)
-    // Two sysstem of check digits
-    const digits = 'JABCDEFGHI'[cs] + String(cs)
+    // two systems of check digits
+    const possibleCheckDigits = letterCheckDigits[cs] + String(cs)
 
-    if (!digits.includes(check)) {
+    if (!possibleCheckDigits.includes(check)) {
       return { isValid: false, error: new exceptions.InvalidChecksum() }
     }
 

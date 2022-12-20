@@ -43,7 +43,9 @@ const impl = {
     // invalid format. The identifier with the checksum error had correct
     // formatting, so invalid checksum seems like the more descriptive error.
 
-    const checksumErrorResult = results.find((r) => r.error && r.error.name === 'InvalidChecksum')
+    const checksumErrorResult = results.find(
+      (r) => r.error && r.error.name === 'InvalidChecksum',
+    )
     return checksumErrorResult || results[0]
   },
 }

@@ -63,7 +63,10 @@ const impl = {
     const sum =
       (weightedSum(front, {
         modulus: 11,
-        weights: front.length === 7 ? [8, 7, 6, 5, 4, 3, 2, 1] : [9, 8, 7, 6, 5, 4, 3, 2, 1],
+        weights:
+          front.length === 7
+            ? [8, 7, 6, 5, 4, 3, 2, 1]
+            : [9, 8, 7, 6, 5, 4, 3, 2, 1],
         alphabet,
       }) +
         (front.length === 7 ? 5 : 0)) %

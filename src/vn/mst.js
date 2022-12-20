@@ -66,7 +66,12 @@ const impl = {
     if (!strings.isdigits(value)) {
       return { isValid: false, error: new exceptions.InvalidFormat() }
     }
-    const [province, sequence, check, suffix] = strings.splitAt(value, 2, 9, 10)
+    const [province, sequence, check, suffix] = strings.splitAt(
+      value,
+      2,
+      9,
+      10,
+    )
 
     if (sequence === '0000000' || suffix === '000' || province === '00') {
       return { isValid: false, error: new exceptions.InvalidComponent() }

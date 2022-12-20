@@ -57,7 +57,9 @@ const impl = {
         return { isValid: false, error: new exceptions.InvalidFormat() }
       }
       base10 = String(
-        chars.reverse().reduce((acc, v, idx) => acc + alphabet.indexOf(v) * 32 ** idx, 0),
+        chars
+          .reverse()
+          .reduce((acc, v, idx) => acc + alphabet.indexOf(v) * 32 ** idx, 0),
       ).padStart(9, '0')
     }
 

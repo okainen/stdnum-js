@@ -1,5 +1,9 @@
 import { validate, format } from './hp'
-import { InvalidLength, InvalidChecksum, InvalidComponent } from '../exceptions'
+import {
+  InvalidLength,
+  InvalidChecksum,
+  InvalidComponent,
+} from '../exceptions'
 
 describe('th/idnr', () => {
   it('format:5161-79157', () => {

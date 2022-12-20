@@ -29,7 +29,10 @@ export function getBirthDate(value) {
 
   if ('5678'.includes(value[6]) && year >= 58) {
     year += 1800
-  } else if ('0123'.includes(value[6]) || ('49'.includes(value[6]) && year >= 37)) {
+  } else if (
+    '0123'.includes(value[6]) ||
+    ('49'.includes(value[6]) && year >= 37)
+  ) {
     year += 1900
   } else {
     year += 2000
@@ -37,8 +40,9 @@ export function getBirthDate(value) {
   const date = new Date(year, month - 1, day)
   if (
     Number.isNaN(date.getTime()) ||
-    [year, String(month).padStart(2, '0'), String(day).padStart(2, '0')].join('-') !==
-      date.toISOString().substr(0, 10)
+    [year, String(month).padStart(2, '0'), String(day).padStart(2, '0')].join(
+      '-',
+    ) !== date.toISOString().substr(0, 10)
   ) {
     throw new exceptions.InvalidComponent(
       'The number does not contain valid birth date information.',

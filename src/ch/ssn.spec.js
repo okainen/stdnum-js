@@ -1,5 +1,9 @@
 import { validate, format } from './ssn'
-import { InvalidLength, InvalidChecksum, InvalidComponent } from '../exceptions'
+import {
+  InvalidLength,
+  InvalidChecksum,
+  InvalidComponent,
+} from '../exceptions'
 
 describe('ch/ssn', () => {
   it('format:7569217076985', () => {

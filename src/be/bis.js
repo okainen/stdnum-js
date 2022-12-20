@@ -13,7 +13,11 @@
 
 import * as exceptions from '../exceptions'
 import { strings } from '../util'
-import { validStructure, validChecksum, toDateArray } from './personIdentifierHelpers'
+import {
+  validStructure,
+  validChecksum,
+  toDateArray,
+} from './personIdentifierHelpers'
 
 function clean(input) {
   return strings.cleanUnicode(input, ' -.')
@@ -26,24 +30,24 @@ function toDob(firstSix) {
     [y, m - 40, d],
   ]
   // Allow 0 because a 0 month indicates an unknown DOB.
-  const dobArray = adjustedDateArrays.find((ada) => ada[1] >= 0 && ada[1] <= 12) || []
+  const dobArray =
+    adjustedDateArrays.find((ada) => ada[1] >= 0 && ada[1] <= 12) || []
   return dobArray.map((n) => `${n}`.padStart(2, '0')).join('')
-}
-
-export function compact(input) {
-  const [value, err] = clean(input)
-
-  if (err) {
-    throw err
-  }
-
-  return value
 }
 
 const impl = {
   name: 'Belgian Number for Foreigners',
   localName: 'Numéro BIS',
   abbreviation: 'BIS',
+  compact(input) {
+    const [value, err] = clean(input)
+
+    if (err) {
+      throw err
+    }
+
+    return value
+  },
   format(input) {
     const [value] = clean(input)
     return value
@@ -69,7 +73,7 @@ const impl = {
 
     return {
       isValid: true,
-      compact,
+      compact: number,
       isIndividual: true,
       isCompany: false,
     }
@@ -77,5 +81,5 @@ const impl = {
 }
 
 export const {
-  name, localName, abbreviation, validate, format,
+  name, localName, abbreviation, compact, validate, format,
 } = impl

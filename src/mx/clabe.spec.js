@@ -1,5 +1,9 @@
 import { validate } from './clabe'
-import { InvalidLength, InvalidComponent, InvalidChecksum } from '../exceptions'
+import {
+  InvalidLength,
+  InvalidComponent,
+  InvalidChecksum,
+} from '../exceptions'
 
 describe('mx/clabe', () => {
   it('validate:12345678901234567', () => {

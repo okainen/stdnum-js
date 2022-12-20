@@ -82,9 +82,11 @@ const impl = {
 
       let cvalue
       if (strings.isdigits(check[0])) {
-        cvalue = alphabet.indexOf(check[0]) * 24 + alphabet.indexOf(check[1]) - 10
+        cvalue =
+          alphabet.indexOf(check[0]) * 24 + alphabet.indexOf(check[1]) - 10
       } else {
-        cvalue = alphabet.indexOf(check[0]) * 34 + alphabet.indexOf(check[1]) - 100
+        cvalue =
+          alphabet.indexOf(check[0]) * 34 + alphabet.indexOf(check[1]) - 100
       }
 
       const sum = (parseInt(back, 10) + 1 + Math.floor(cvalue / 11)) % 11

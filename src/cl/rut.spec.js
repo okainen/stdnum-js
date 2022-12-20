@@ -1,5 +1,9 @@
 import { validate, format } from './rut'
-import { InvalidLength, InvalidChecksum, InvalidComponent } from '../exceptions'
+import {
+  InvalidLength,
+  InvalidChecksum,
+  InvalidComponent,
+} from '../exceptions'
 
 describe('cl/rut', () => {
   it('format:800280610', () => {

@@ -1,5 +1,9 @@
 import { validate, format } from './kennitala'
-import { InvalidLength, InvalidChecksum, InvalidComponent } from '../exceptions'
+import {
+  InvalidLength,
+  InvalidChecksum,
+  InvalidComponent,
+} from '../exceptions'
 
 describe('is/kennitala', () => {
   it('format:4504013150', () => {

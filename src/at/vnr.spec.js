@@ -1,5 +1,9 @@
 import { validate, format } from './vnr'
-import { InvalidLength, InvalidChecksum, InvalidComponent } from '../exceptions'
+import {
+  InvalidLength,
+  InvalidChecksum,
+  InvalidComponent,
+} from '../exceptions'
 
 describe('at/vnr', () => {
   it('format:1237010180', () => {

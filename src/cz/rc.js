@@ -65,7 +65,9 @@ const impl = {
     } else if (year < 1954) {
       year += 100
     }
-    if (!isValidDateCompactYYYYMMDD(`${year}${String(mon).padStart(2, '0')}${dd}`)) {
+    if (
+      !isValidDateCompactYYYYMMDD(`${year}${String(mon).padStart(2, '0')}${dd}`)
+    ) {
       return { isValid: false, error: new exceptions.InvalidComponent() }
     }
 

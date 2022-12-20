@@ -55,14 +55,25 @@ const impl = {
     }
 
     const [front, , back, check2] = strings.splitAt(value, 6, 7, -1)
-    if (!strings.isdigits(front) || !strings.isdigits(back) || !CHECK_ALPHA.includes(check2)) {
+    if (
+      !strings.isdigits(front) ||
+      !strings.isdigits(back) ||
+      !CHECK_ALPHA.includes(check2)
+    ) {
       return { isValid: false, error: new exceptions.InvalidFormat() }
     }
     if (!'-+A'.includes(value[6])) {
       return { isValid: false, error: new exceptions.InvalidComponent() }
     }
 
-    const [dd, mm, yy, century, person, check] = strings.splitAt(value, 2, 4, 6, 7, 10)
+    const [dd, mm, yy, century, person, check] = strings.splitAt(
+      value,
+      2,
+      4,
+      6,
+      7,
+      10,
+    )
     const dstr = `${CENTURY[century]}${yy}${mm}${dd}`
     if (!isValidDateCompactYYYYMMDD(dstr)) {
       return { isValid: false, error: new exceptions.InvalidComponent() }

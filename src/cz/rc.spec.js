@@ -1,5 +1,9 @@
 import { validate, format } from './rc'
-import { InvalidLength, InvalidChecksum, InvalidComponent } from '../exceptions'
+import {
+  InvalidLength,
+  InvalidChecksum,
+  InvalidComponent,
+} from '../exceptions'
 
 describe('cz/rc', () => {
   it('format:7103192745', () => {

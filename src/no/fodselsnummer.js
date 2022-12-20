@@ -21,7 +21,9 @@ function clean(input) {
 
 function checkBirthdate(value) {
   // eslint-disable-next-line prefer-const
-  let [dd, mm, yy, rest] = strings.splitAt(value, 2, 4, 6, 9).map((v) => parseInt(v, 10))
+  let [dd, mm, yy, rest] = strings
+    .splitAt(value, 2, 4, 6, 9)
+    .map((v) => parseInt(v, 10))
 
   // Correct the birth day for D-numbers. These have a modified first digit.
   // https://no.wikipedia.org/wiki/F%C3%B8dselsnummer#D-nummer

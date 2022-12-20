@@ -60,7 +60,11 @@ const impl = {
 
     const [pre, dept, post, check] = strings.splitAt(value, 5, 7, 13)
 
-    if (!strings.isdigits(pre) || !strings.isdigits(post) || !strings.isdigits(check)) {
+    if (
+      !strings.isdigits(pre) ||
+      !strings.isdigits(post) ||
+      !strings.isdigits(check)
+    ) {
       return { isValid: false, error: new exceptions.InvalidFormat() }
     }
     let add = ''

@@ -15,20 +15,19 @@ function clean(input) {
   return strings.cleanUnicode(input, ' -.')
 }
 
-export function compact(input) {
-  const [value, err] = clean(input)
-
-  if (err) {
-    throw err
-  }
-
-  return value
-}
-
 const impl = {
   name: 'Belgian National Number',
   localName: 'Numéro National',
   abbreviation: 'NN, RN',
+  compact(input) {
+    const [value, err] = clean(input)
+
+    if (err) {
+      throw err
+    }
+
+    return value
+  },
   format(input) {
     const [value] = clean(input)
     return value
@@ -54,7 +53,7 @@ const impl = {
 
     return {
       isValid: true,
-      compact,
+      compact: number,
       isIndividual: true,
       isCompany: false,
     }
@@ -62,5 +61,5 @@ const impl = {
 }
 
 export const {
-  name, localName, abbreviation, validate, format,
+  name, localName, abbreviation, compact, validate, format,
 } = impl

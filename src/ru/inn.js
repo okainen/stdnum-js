@@ -59,7 +59,10 @@ const impl = {
     }
 
     let digit
-    const [front, check] = strings.splitAt(value, value.length === 10 ? -1 : -2)
+    const [front, check] = strings.splitAt(
+      value,
+      value.length === 10 ? -1 : -2,
+    )
 
     if (value.length === 10) {
       digit = String(

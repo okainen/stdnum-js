@@ -1,5 +1,9 @@
 import { validate, format } from './rif'
-import { InvalidLength, InvalidComponent, InvalidChecksum } from '../exceptions'
+import {
+  InvalidLength,
+  InvalidComponent,
+  InvalidChecksum,
+} from '../exceptions'
 
 describe('ve/rif', () => {
   it('format:V114702834', () => {
