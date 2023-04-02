@@ -1,9 +1,9 @@
 /**
  * UI Number
  *
- * The UI Number is shown on the “R.O.C. (Taiwan) Resident Certificate,” “Exit &
- * Entry Permit Taiwan Republic of China,” or the “R.O.C. (Taiwan) UI No. Basic
- * Information Form.”
+ * The UI Number is shown on the R.O.C. (Taiwan) Resident Certificate, Exit &
+ * Entry Permit Taiwan Republic of China, or the R.O.C. (Taiwan) UI No. Basic
+ * Information Form.
  *
  * Sources:
  *   https://www.mof.gov.tw/Eng/download/16968
