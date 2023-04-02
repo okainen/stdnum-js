@@ -5,7 +5,7 @@
  * and birth century, the second through seventh denotes the birth date,
  * followed by a three-digit serial and a check digit.
  *
- * Source:
+ * Sources:
  *   https://lt.wikipedia.org/wiki/Asmens_kodas
  *   https://en.wikipedia.org/wiki/National_identification_number#Lithuania
  *

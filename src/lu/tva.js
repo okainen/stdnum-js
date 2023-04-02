@@ -5,7 +5,7 @@
  * used for tax purposes in Luxembourg. The number consists of 8 digits of
  * which the last two are check digits.
  *
- * Source
+ * Sources:
  *
  * ENTITY
  */

@@ -6,8 +6,8 @@
  * identification number that is provided to individuals within Ukraine. The
  * number consists of 10 digits, the last being a check digit.
  *
- * More information:
- *    https://uk.wikipedia.org/wiki/РНОКПП
+ * Sources:
+ *   https://uk.wikipedia.org/wiki/РНОКПП
  *
  * PERSON
  */

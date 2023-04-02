@@ -6,7 +6,7 @@
  * SPI (Simplification des Procédures d'Identification) is a 13-digit number
  * issued by the French tax authorities to people for tax reporting purposes.
  *
- * Source
+ * Sources:
  *   https://ec.europa.eu/taxation_customs/tin/tinByCountry.html
  *   https://fr.wikipedia.org/wiki/Numéro_d%27Immatriculation_Fiscale#France
  *

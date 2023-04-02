@@ -1,5 +1,4 @@
 /**
- *
  * VNR, SVNR, VSNR (Versicherungsnummer, Austrian social security number).
  *
  * The Austian Versicherungsnummer is a personal identification number used for

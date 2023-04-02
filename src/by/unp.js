@@ -7,7 +7,7 @@
  * alphanumeric for individuals) and contains a region identifier, a serial per
  * region and a check digit.
  *
- * Source
+ * Sources:
  *   https://be.wikipedia.org/wiki/Уліковы_нумар_плацельшчыка
  *   http://pravo.levonevsky.org/bazaby09/sbor37/text37892/index3.htm
  *

@@ -2,9 +2,9 @@
  * The Belgian Social Security Identification Number is an 11 digit number.
  * It can be either a National Register Number (NN, NISS) or BIS.
  *
- * Sources
- *  https://fr.wikipedia.org/wiki/Numéro_de_registre_national
- *  https://www2.deloitte.com/content/dam/Deloitte/be/Documents/tax/TaxAlerts/IndividualTaxAlerts/Social%20Security%20alert%20-%20BelgianIDpro%20-%2026%20Nov%202020.pdf
+ * Sources:
+ *   https://fr.wikipedia.org/wiki/Numéro_de_registre_national
+ *   https://www2.deloitte.com/content/dam/Deloitte/be/Documents/tax/TaxAlerts/IndividualTaxAlerts/Social%20Security%20alert%20-%20BelgianIDpro%20-%2026%20Nov%202020.pdf
  *
  * PERSON
  */

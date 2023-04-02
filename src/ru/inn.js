@@ -5,8 +5,8 @@
  * identification number that consists 10 digits for companies and 12 digits for
  * persons.
  *
- * More information:
- *    https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/RussianFederation-TIN.pdf
+ * Sources:
+ *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/RussianFederation-TIN.pdf
  *
  * INN == VAT PERSON/ENTITY
  */

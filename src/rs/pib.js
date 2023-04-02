@@ -4,8 +4,8 @@
  * The Serbian tax identification number consists of 9 digits where the last
  * digit is a check digit.
  *
- * Source
- *    https://en.wikipedia.org/wiki/VAT_identification_number
+ * Sources:
+ *   https://en.wikipedia.org/wiki/VAT_identification_number
  *
  * ENTITY
  */

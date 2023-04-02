@@ -6,9 +6,9 @@
  * followed by three digits for the year the code was assigned. The number ends
  * with five identifier digits and a check digit.
  *
- * Source
- *    https://www.idno.md
- *    https://kls.md/paves-the-way-for-an-eventual-merger/
+ * Sources:
+ *   https://www.idno.md
+ *   https://kls.md/paves-the-way-for-an-eventual-merger/
  *
  * ENTITY
  */

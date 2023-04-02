@@ -12,11 +12,10 @@
  * checksum only for numbers that have a birth date before that because the
  * numbers are also assigned to immigrants.
  *
- * More information:
- *
- * https://en.wikipedia.org/wiki/Personal_identification_number_(Denmark)
- * https://da.wikipedia.org/wiki/CPR-nummer
- * https://cpr.dk/
+ * Sources:
+ *   https://en.wikipedia.org/wiki/Personal_identification_number_(Denmark)
+ *   https://da.wikipedia.org/wiki/CPR-nummer
+ *   https://cpr.dk/
  */
 
 import * as exceptions from '../exceptions'

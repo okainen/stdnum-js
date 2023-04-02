@@ -4,8 +4,8 @@
  * The CNP is a 13 digit number that includes information on the person's
  * gender, birth date and country zone.
  *
- * Source:
- * https://ro.wikipedia.org/wiki/Cod_numeric_personal
+ * Sources:
+ *   https://ro.wikipedia.org/wiki/Cod_numeric_personal
  *
  * PERSON
  */

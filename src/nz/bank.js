@@ -7,7 +7,7 @@
  * BBRRRR is captured as the National bank Code and it is expected to enter a
  * 10 digit account number, like so: AAAAAAASSS.
  *
- * Source
+ * Sources:
  *   http://www.paymentsnz.co.nz/clearing-systems/bulk-electronic-clearing-system
  *   https://www.ird.govt.nz/resources/d/8/d8e49dce-1bda-4875-8acf-9ebf908c6e17/rwt-nrwt-spec-2014.pdf
  *

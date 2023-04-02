@@ -5,8 +5,8 @@
  * by 40 if the sex of the person was known when the number was assigned and by
  * 20 if not.
  *
- * Source
- *  https://fr.wikipedia.org/wiki/Numéro_de_registre_national (Numéro de sécurité sociale)
+ * Sources:
+ *   https://fr.wikipedia.org/wiki/Numéro_de_registre_national (Numéro de sécurité sociale)
  *
  * PERSON
  */

@@ -5,12 +5,12 @@
  * the first digit is a 5. The first two digits identify the type of
  * company.
  *
- * Source
+ * Sources:
  *   https://he.wikipedia.org/wiki/תאגיד#מספר_רישום_התאגיד
  *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Israel-TIN.pdf
  *   https://wiki.scn.sap.com/wiki/display/CRM/Israel
  *
- * Entity
+ * ENTITY
  */
 
 import * as exceptions from '../exceptions'

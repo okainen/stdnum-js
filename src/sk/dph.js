@@ -4,7 +4,7 @@
  * The IČ DPH (Identifikačné číslo pre daň z pridanej hodnoty) is a 10-digit
  * number used for VAT purposes. It has a straightforward checksum.
  *
- * Source
+ * Sources:
  *
  * ENTITY
  */

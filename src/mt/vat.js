@@ -1,9 +1,11 @@
 /**
  * Maltese VAT Number
  *
- * https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Malta-TIN.pdf
- * https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/395616/ESL-Foreign-Language-Letter-Malta.pdf
+ * Sources:
+ *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Malta-TIN.pdf
+ *   https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/395616/ESL-Foreign-Language-Letter-Malta.pdf
  *
+ * ENTITY
  */
 
 import * as exceptions from '../exceptions'

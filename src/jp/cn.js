@@ -6,9 +6,12 @@
  * other organisations. The number consists of 13 digits where the first digit
  * is a non-zero check digit.
  *
- * More information:
- * https://en.wikipedia.org/wiki/Corporate_Number
- * https://www.nta.go.jp/taxes/tetsuzuki/mynumberinfo/houjinbangou/
+ * Sources:
+ *   https://en.wikipedia.org/wiki/Corporate_Number
+ *   https://www.nta.go.jp/taxes/tetsuzuki/mynumberinfo/houjinbangou/
+ *
+ * ENTITY
+ *
  */
 
 import * as exceptions from '../exceptions'

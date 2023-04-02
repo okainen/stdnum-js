@@ -9,7 +9,7 @@
  * and unincorporated bodies). Pre-2013 values may have 'W', 'T',
  * or 'X' as the second letter ; it is ignored by the check.
  *
- * Source
+ * Sources:
  *
  * PERSON
  */

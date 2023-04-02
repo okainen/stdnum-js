@@ -1,5 +1,4 @@
 /**
- *
  * Austrian Company Register Numbers.
  *
  * Sources:

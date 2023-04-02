@@ -6,7 +6,7 @@
  * unique identification number of a legal entities in Ukraine. Th number
  * consists of 8 digits, the last being a check digit.
  *
- * Source:
+ * Sources:
  *   https://uk.wikipedia.org/wiki/Код_ЄДРПОУ
  *   https://1cinfo.com.ua/Articles/Proverka_koda_po_EDRPOU.aspx
  *

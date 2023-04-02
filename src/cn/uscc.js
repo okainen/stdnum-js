@@ -32,10 +32,10 @@
  * certificate, an alternative document to the China Business License. It can
  * contain letters or digits.
  *
- * SOURCES
- *    https://zh.wikipedia.org/wiki/统一社会信用代码
- *    https://zh.wikipedia.org/wiki/校验码
- *    https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/China-TIN.pdf
+ * Sources:
+ *   https://zh.wikipedia.org/wiki/统一社会信用代码
+ *   https://zh.wikipedia.org/wiki/校验码
+ *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/China-TIN.pdf
  *
  * ENTITY
  */

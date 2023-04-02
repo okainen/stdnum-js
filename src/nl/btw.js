@@ -12,7 +12,7 @@
  * btw-identificatienummer has a similar format but different checksum and does
  * not contain the BSN.
  *
- * Source
+ * Sources:
  *   https://en.wikipedia.org/wiki/VAT_identification_number
  *   https://nl.wikipedia.org/wiki/Btw-nummer_(Nederland)
  *

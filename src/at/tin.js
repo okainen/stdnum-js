@@ -1,5 +1,4 @@
 /**
- *
  * Abgabenkontonummer (Austrian tax identification number).
  *
  * The Austrian tax identification number (Abgabenkontonummer) consists of 2
@@ -8,9 +7,9 @@
  *
  *
  * Sources:
- *    https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Austria-TIN.pdf
- *    https://de.wikipedia.org/wiki/Abgabenkontonummer
- *    https://service.bmf.gv.at/Service/Anwend/Behoerden/show_mast.asp
+ *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Austria-TIN.pdf
+ *   https://de.wikipedia.org/wiki/Abgabenkontonummer
+ *   https://service.bmf.gv.at/Service/Anwend/Behoerden/show_mast.asp
  *
  * ENTITY
  */

@@ -5,7 +5,7 @@
  * unique personal identification number assigned to every citizen of Turkey.
  * The number consists of 11 digits and the last two digits are check digits.
  *
- * Source:
+ * Sources:
  *   https://en.wikipedia.org/wiki/Turkish_Identification_Number
  *   https://tckimlik.nvi.gov.tr/
  *

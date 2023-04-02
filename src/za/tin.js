@@ -5,7 +5,7 @@
  * issued to individuals and legal entities for tax purposes. The number
  * consists of 10 digits.
  *
- * Source
+ * Sources:
  *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/South-Africa-TIN.pdf
  *   https://www.sars.gov.za/
  *

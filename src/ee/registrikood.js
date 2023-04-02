@@ -10,8 +10,8 @@
  * number uses the same check digit algorithm as the Isikukood although that
  * fact is undocumented.
  *
- * Source
- *  https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Estonia-TIN.pdf
+ * Sources:
+ *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Estonia-TIN.pdf
  *   https://ariregister.rik.ee/
  *   https://mtr.mkm.ee/
  *

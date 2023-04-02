@@ -18,12 +18,12 @@
  * indicating branches of the enterprise. These digits are usually
  * separated from the first ten digits using a dash (-)
  *
- * Source
+ * Sources:
  *   https://vi.wikipedia.org/wiki/Thuế_Việt_Nam#Mã_số_thuế_(MST)_của_doanh_nghiệp
  *   https://easyinvoice.vn/ma-so-thue/
  *   https://ub.com.vn/threads/huong-dan-tra-cuu-ma-so-thue-doanh-nghiep-moi-nhat.261393/
  *
- * /ENTITY
+ * ENTITY
  */
 
 import * as exceptions from '../exceptions'

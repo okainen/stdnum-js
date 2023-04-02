@@ -8,9 +8,9 @@
  * number, followed by a 6 digit sequence number, followed by 001 and a check
  * digit.
  *
- * Source
- *    https://www.agesic.gub.uy/innovaportal/file/1634/1/modelo_de_datos.pdf (page 71)
- *    https://servicios.dgi.gub.uy/ServiciosEnLinea/dgi--servicios-en-linea--consulta-de-certifcado-unico
+ * Sources:
+ *   https://www.agesic.gub.uy/innovaportal/file/1634/1/modelo_de_datos.pdf (page 71)
+ *   https://servicios.dgi.gub.uy/ServiciosEnLinea/dgi--servicios-en-linea--consulta-de-certifcado-unico
  *
  * ENTITY
  */

@@ -1,5 +1,4 @@
 /**
- *
  * Chile RUT/RUN numbers
  *
  * RUT number (Rol Unico Tributario).

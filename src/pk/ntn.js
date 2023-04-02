@@ -4,8 +4,8 @@
  * Pakastan National Identification Number (CNIC) is issued to individuals and legal entities for
  * tax purposes. The number consists of 11 digits.
  *
- * Source
- *    https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Pakistan-TIN.pdf
+ * Sources:
+ *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Pakistan-TIN.pdf
  *
  * ENTITY
  */

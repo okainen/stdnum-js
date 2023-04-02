@@ -5,8 +5,8 @@
  * that appears on the Documento Nacional de Identidad (DNI).
  *
  *
- * Source
- *    https://knowledge.sayari.com/hc/en-us/articles/360033290312-Guatemala-Interpreting-Guatemalan-National-ID-Numbers
+ * Sources:
+ *   https://knowledge.sayari.com/hc/en-us/articles/360033290312-Guatemala-Interpreting-Guatemalan-National-ID-Numbers
  *
  * PERSON
  */

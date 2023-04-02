@@ -7,7 +7,7 @@
  * character indicates the type of holder of the number and the last character
  * is computed by an undocumented checksum algorithm.
  *
- * More information:
+ * Sources:
  *   https://en.wikipedia.org/wiki/Permanent_account_number
  *
  * ENTITY

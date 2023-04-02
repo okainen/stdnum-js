@@ -13,10 +13,10 @@
  *  - 6 digit unique id
  *  - a check digit
  *
- * Source
- *     https://mnis.govmu.org/English/ID%20Card/Pages/default.aspx
+ * Sources:
+ *   https://mnis.govmu.org/English/ID%20Card/Pages/default.aspx
  *
- * PERSONENTITY
+ * PERSON
  */
 
 import * as exceptions from '../exceptions'

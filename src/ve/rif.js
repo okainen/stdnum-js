@@ -6,8 +6,9 @@
  * denotes the type of number (person, company or government) and the last digit
  * is a check digit.
  *
- * Source
- * https://wiki.scn.sap.com/wiki/display/CRM/Venezuela
+ * Sources:
+ *   https://wiki.scn.sap.com/wiki/display/CRM/Venezuela
+ *
  * VAT
  */
 

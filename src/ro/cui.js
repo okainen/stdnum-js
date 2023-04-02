@@ -10,8 +10,8 @@
  * This number can change under some conditions. The number can be prefixed with
  * RO to indicate that the entity has been registered for VAT.
  *
- * Source:
- *     https://ro.wikipedia.org/wiki/Cod_de_identificare_fiscală
+ * Sources:
+ *   https://ro.wikipedia.org/wiki/Cod_de_identificare_fiscală
  *
  * ENTITY
  */

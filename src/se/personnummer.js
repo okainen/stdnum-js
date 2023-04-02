@@ -6,8 +6,8 @@
  * 12 digits and starts with the birth date, followed by a serial and a check
  * digit.
  *
- * Source:
- *    https://en.wikipedia.org/wiki/Personal_identity_number_(Sweden)
+ * Sources:
+ *   https://en.wikipedia.org/wiki/Personal_identity_number_(Sweden)
  *
  * PERSON
  */

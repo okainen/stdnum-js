@@ -1,5 +1,4 @@
 /**
- *
  * The CLABE (Clave Bancaria Estandarizada)
  *
  * Spanish for "standardized banking cipher" or "standardized bank code") is a banking standard for the numbering of

@@ -6,9 +6,9 @@
  * issued to temporary workers who are neither Canadian citizens nor permanent
  * residents.
  *
- * Source:
- *    https://www.canada.ca/en/employment-social-development/services/sin.html
- *    https://en.wikipedia.org/wiki/Social_Insurance_Number
+ * Sources:
+ *   https://www.canada.ca/en/employment-social-development/services/sin.html
+ *   https://en.wikipedia.org/wiki/Social_Insurance_Number
  *
  * PERSON
  */

@@ -4,7 +4,7 @@
  * The Thai identity card (Thai: บัตรประจำตัวประชาชนไทย)
  * is an official identity document issued to Thai nationals between the age of 7 and 70 years.
  *
- * Source
+ * Sources:
  *   https://en.wikipedia.org/wiki/Thai_identity_card
  *
  * PERSON

@@ -1,7 +1,7 @@
 /**
  * Vergi identifikasiya nömrəsi (VÖEN) - Azerbaijani Tax Identification Number
  *
- * Source
+ * Sources:
  *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Azerbaijan-TIN.pdf
  *   https://www.currentschoolnews.com/az/articles/tax-identification-number-application/
  *

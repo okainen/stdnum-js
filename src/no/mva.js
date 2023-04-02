@@ -4,8 +4,8 @@
  * The VAT number is the standard Norwegian organisation number
  * (Organisasjonsnummer) with 'MVA' as suffix.
  *
- * Source
- *    https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Norway-TIN.pdf
+ * Sources:
+ *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Norway-TIN.pdf
  *
  * PERSON/ENTITY
  */

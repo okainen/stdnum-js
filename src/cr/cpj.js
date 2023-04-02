@@ -9,7 +9,7 @@
  * juridical person, followed by 6 digits sequence number assigned by Registro
  * Nacional de la República de Costa Rica.
  *
- * Source
+ * Sources:
  *   https://www.hacienda.go.cr/consultapagos/ayuda_cedulas.htm
  *   https://www.procomer.com/downloads/quiero/guia_solicitud_vuce.pdf (page 11)
  *   http://www.registronacional.go.cr/personas_juridicas/documentos/Consultas/Listado%20de%20Clases%20y%20Tipos%20Cedulas%20Juridicas.pdf

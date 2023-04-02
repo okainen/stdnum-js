@@ -6,8 +6,8 @@
  * six characters are numbers issued sequentially and the final character is
  * a letter A-D. The suffix may be omitted if it is not known.
  *
- * Source
- *  https://en.wikipedia.org/wiki/National_Insurance_number
+ * Sources:
+ *   https://en.wikipedia.org/wiki/National_Insurance_number
  *
  * PERSON
  */

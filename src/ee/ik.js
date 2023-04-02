@@ -5,8 +5,8 @@
  * the person was born in, the following 6 digits the birth date, followed by a
  * 3 digit serial and a check digit.
  *
- * Source
- *    https://www.riigiteataja.ee/akt/106032012004
+ * Sources:
+ *   https://www.riigiteataja.ee/akt/106032012004
  *
  * PERSON
  */

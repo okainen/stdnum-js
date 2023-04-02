@@ -11,7 +11,7 @@
  * Koreans or the issuing agency for foreigners, followed by two digits for the
  * community center number, one serial number and a check digit.
  *
- * Source:
+ * Sources:
  *   http://www.law.go.kr/lsSc.do?tabMenuId=tab18&p1=&subMenu=1&nwYn=1&section=&tabNo=&query=개인정보+보호법
  *   https://en.wikipedia.org/wiki/Resident_registration_number
  *   https://techscience.org/a/2015092901/

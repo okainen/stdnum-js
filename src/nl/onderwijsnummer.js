@@ -5,7 +5,7 @@
  * citizen identification number), but is for students without a BSN. It uses a
  * checksum mechanism similar to the BSN.
  *
- * Source:
+ * Sources:
  *   https://nl.wikipedia.org/wiki/Onderwijsnummer
  *
  * PERSON

@@ -6,8 +6,8 @@
  * purposes in Greece. The number consists of 11 digits and includes the
  * person's date of birth and gender.
  *
- * Source
- *    https://www.amka.gr/tieinai_en.html
+ * Sources:
+ *   https://www.amka.gr/tieinai_en.html
  *
  * PERSON
  */

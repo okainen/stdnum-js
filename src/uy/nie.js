@@ -7,8 +7,8 @@
  *
  * NOTE: Unable to find a checksum algorithm, assuming it's the same as Cedula
  *
- * Source
- *    https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Uruguay-TIN.pdf
+ * Sources:
+ *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Uruguay-TIN.pdf
  *
  * PERSON
  */

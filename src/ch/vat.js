@@ -10,7 +10,7 @@
  * This module only supports the "new" format that was introduced in 2011 which
  * completely replaced the "old" 6-digit format in 2014.
  *
- * More information:
+ * Sources:
  *   https://www.ch.ch/en/value-added-tax-number-und-business-identification-number/
  *   https://www.uid.admin.ch/
  *

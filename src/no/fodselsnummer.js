@@ -4,7 +4,7 @@
  * The Fødselsnummer is an eleven-digit number that is built up of the date of
  * birth of the person, a serial number and two check digits.
  *
- * Source:
+ * Sources:
  *   https://no.wikipedia.org/wiki/F%C3%B8dselsnummer
  *   https://en.wikipedia.org/wiki/National_identification_number#Norway
  *

@@ -14,7 +14,7 @@
  *   digits of the issuance year, followed by two letters representing the
  *   entity type, 4 digits and finally a check letter.
  *
- * Source
+ * Sources:
  *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Singapore-TIN.pdf
  *   https://www.uen.gov.sg/ueninternet/faces/pages/admin/aboutUEN.jspx
  *

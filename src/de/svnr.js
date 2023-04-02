@@ -4,7 +4,7 @@
  * The SVNR (or RVNR) is the German social security / pension insurance number.
  * It's also called a social insuarance number. The number consists of 12 digits.
  *
- * Source
+ * Sources:
  *   https://de.wikipedia.org/wiki/Versicherungsnummer
  *   https://allaboutberlin.com/guides/german-versicherungsnummer
  *

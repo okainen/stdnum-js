@@ -6,7 +6,7 @@
  * contain the tax office number (3 digits), the type of business (2 digits), a
  * serially assigned value (4 digits) and a single check digit.
  *
- * Source
+ * Sources:
  *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Korea-TIN.pdf
  *
  * ENTITY

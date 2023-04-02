@@ -5,9 +5,9 @@
  * within Taiwan for tax (VAT) purposes. The number consists of 8 digits, the
  * last being a check digit.
  *
- * Source
- *    https://zh.wikipedia.org/wiki/統一編號
- *    https://findbiz.nat.gov.tw/fts/query/QueryBar/queryInit.do?request_locale=en
+ * Sources:
+ *   https://zh.wikipedia.org/wiki/統一編號
+ *   https://findbiz.nat.gov.tw/fts/query/QueryBar/queryInit.do?request_locale=en
  *
  * ENTITY
  */

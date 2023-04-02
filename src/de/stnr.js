@@ -9,8 +9,8 @@
  * (part of) the Bundesfinanzamtsnummer (BUFA-Nr.), a district number, a serial
  * number and a check digit.
  *
- * Source
- *    https://de.wikipedia.org/wiki/Steuernummer
+ * Sources:
+ *   https://de.wikipedia.org/wiki/Steuernummer
  *
  * PERSON/ENTITY
  */

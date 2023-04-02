@@ -5,8 +5,8 @@
  * businesses. The number consists of 10 digits where the first digit is derived
  * from the company name.
  *
- * Source:
- *    https://www.turkiye.gov.tr/gib-intvrg-vergi-kimlik-numarasi-dogrulama
+ * Sources:
+ *   https://www.turkiye.gov.tr/gib-intvrg-vergi-kimlik-numarasi-dogrulama
  *
  * ENTITY
  */

@@ -12,7 +12,7 @@
  * EE...E is a sequence telling how many Cédula de Residencia have been issued
  * for that particular foreign country.
  *
- * Source
+ * Sources:
  *   https://www.hacienda.go.cr/consultapagos/ayuda_cedulas.htm
  *
  * PERSON

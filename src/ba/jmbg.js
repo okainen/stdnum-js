@@ -1,8 +1,8 @@
 /**
  * JMBG (Bosnia and Herzegovina Unique Master Citizen Number).
  *
- * Source
- *    https://en.wikipedia.org/wiki/Unique_Master_Citizen_Number#
+ * Sources:
+ *   https://en.wikipedia.org/wiki/Unique_Master_Citizen_Number#
  *
  * PERSON
  */

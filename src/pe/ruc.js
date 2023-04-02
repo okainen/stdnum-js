@@ -6,9 +6,9 @@
  * indicate the kind of number, for personal numbers it is followed by the DNI
  * and a check digit.
  *
- * Source
- *    http://www.sunat.gob.pe/legislacion/ruc/
- *    https://consultarelruc.pe/
+ * Sources:
+ *   http://www.sunat.gob.pe/legislacion/ruc/
+ *   https://consultarelruc.pe/
  *
  * ENTITY TAX
  */

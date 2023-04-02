@@ -1,7 +1,7 @@
 /**
  *  PIN - Fərdi İdentifikasiya Nömrəsidir (Azerbaijani Personal Identification Number).
  *
- * Source
+ * Sources:
  *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Azerbaijan-TIN.pdf
  *
  * PERSON

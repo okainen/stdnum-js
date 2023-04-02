@@ -6,7 +6,7 @@
  * be followed by two letters (program identifier) and 4 digits (reference
  * number) to form a program account (or BN15).
  *
- * Source:
+ * Sources:
  *   https://www.canada.ca/en/services/taxes/business-number.html
  *   https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpSrch.html?locale=en_CA/
  *

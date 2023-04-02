@@ -11,7 +11,7 @@
  * followed by 2 digits for the year or birth, 2 for the month of birth, 5 for
  * the location of birth (COG), 3 for a serial and 2 check digits.
  *
- * More information:
+ * Sources:
  *   https://www.insee.fr/en/metadonnees/definition/c1409
  *   https://en.wikipedia.org/wiki/INSEE_code
  *   http://resoo.org/docs/_docs/regles-numero-insee.pdf

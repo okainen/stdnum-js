@@ -5,8 +5,8 @@
  * The number is assigned by the Unique Identification Authority of India
  * (UIDAI).
  *
- * Source
- *    https://en.wikipedia.org/wiki/Aadhaar
+ * Sources:
+ *   https://en.wikipedia.org/wiki/Aadhaar
  *
  * PERSON
  */

@@ -6,7 +6,7 @@
  * alphanumeric that contains certain letters from the person's name, their
  * gender and birth date and a check digit.
  *
- * More information:
+ * Sources:
  *   https://en.wikipedia.org/wiki/CURP
  *   https://www.gob.mx/curp/
  *

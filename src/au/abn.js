@@ -5,7 +5,7 @@
  * registered in the Australian Business Register (ABR). The number consists of
  * 11 digits of which the first two are check digits.
  *
- * Source
+ * Sources:
  *   https://en.wikipedia.org/wiki/Australian_Business_Number
  *   https://abr.business.gov.au/
  *

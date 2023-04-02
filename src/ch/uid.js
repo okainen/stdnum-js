@@ -7,7 +7,7 @@
  * This module only supports the "new" format that was introduced in 2011 which
  * completely replaced the "old" 6-digit format in 2014.
  *
- * Source
+ * Sources:
  *   https://www.uid.admin.ch/
  *   https://de.wikipedia.org/wiki/Unternehmens-Identifikationsnummer
  *

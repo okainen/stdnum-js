@@ -4,7 +4,7 @@
  * The NIP (Numer Identyfikacji Podatkowej) number consists of 10 digit with
  * a straightforward weighted checksum.
  *
- * Source
+ * Sources:
  *
  * ENTITY
  */

@@ -5,7 +5,7 @@
  * also validated the same as the French TVA, except that it is not based on
  * a French SIREN.
  *
- * Source
+ * Sources:
  *
  * ENTITY
  */

@@ -6,9 +6,9 @@
  * document of Peru. The number consists of 8 digits and an optional extra check
  * digit.
  *
- * Source
- *    https://www.gob.pe/235-documento-nacional-de-identidad-dni
- *    https://es.wikipedia.org/wiki/Documento_Nacional_de_Identidad_(Perú)
+ * Sources:
+ *   https://www.gob.pe/235-documento-nacional-de-identidad-dni
+ *   https://es.wikipedia.org/wiki/Documento_Nacional_de_Identidad_(Perú)
  *
  * PERSON
  */

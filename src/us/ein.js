@@ -7,10 +7,10 @@
  * employees.
  *
  * Sources:
- *    https://en.wikipedia.org/wiki/Social_Security_number
- *    https://www.ssa.gov/employer/verifySSN.htm
+ *   https://en.wikipedia.org/wiki/Social_Security_number
+ *   https://www.ssa.gov/employer/verifySSN.htm
  *
- * INDIVIDUAL
+ * PERSON
  */
 
 import * as exceptions from '../exceptions'

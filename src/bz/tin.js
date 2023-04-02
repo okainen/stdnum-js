@@ -1,8 +1,8 @@
 /**
  * TIN (Belize Tax ID)
  *
- * Source
- *    https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Belize-TIN.pdf
+ * Sources:
+ *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Belize-TIN.pdf
  *
  * PERSON/ENTITY
  */

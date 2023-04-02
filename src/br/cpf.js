@@ -5,8 +5,8 @@
  * assigned to individuals for tax purposes. The number consists of 11 digits
  * and includes two check digits.
  *
- * Source
- *     https://en.wikipedia.org/wiki/Cadastro_de_Pessoas_Físicas
+ * Sources:
+ *   https://en.wikipedia.org/wiki/Cadastro_de_Pessoas_Físicas
  *
  * PERSON
  */

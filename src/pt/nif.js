@@ -6,8 +6,8 @@
  * simple checksum. The first digit depends on what the number refers to,
  * e.g.: 1-3 are regular people, 5 are companies.
  *
- * Source
- * https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Portugal-TIN.pdf
+ * Sources:
+ *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Portugal-TIN.pdf
  *
  * PERSON/ENTITY
  */

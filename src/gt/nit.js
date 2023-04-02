@@ -7,9 +7,9 @@
  * digit (a digit or the letter K) and the rest are digits. Leading zeroes are
  * usually omitted. Digits and check digit are usually separated with a hyphen.
  *
- * Source
- *    https://portal.sat.gob.gt/portal/descarga/6524/factura-electronica-fel/25542/fel-reglas-y-validaciones.pdf (page 58)
- *    https://portal.sat.gob.gt/portal/consulta-cui-nit/
+ * Sources:
+ *   https://portal.sat.gob.gt/portal/descarga/6524/factura-electronica-fel/25542/fel-reglas-y-validaciones.pdf (page 58)
+ *   https://portal.sat.gob.gt/portal/consulta-cui-nit/
  *
  * ENTITY
  */

@@ -1,5 +1,4 @@
 /**
- *
  * Columbian Número de Identificación Tributaria
  *
  * The Tax Identification Number (NIT) is a unique Colombian number, assigned by the DIAN (Dirección

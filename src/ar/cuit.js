@@ -1,5 +1,4 @@
 /**
- *
  * CUIT (Código Único de Identificación Tributaria, Argentinian tax number).
  *
  * The CUIT is a taxpayer identification number used for VAT (IVA, Impuesto al
@@ -8,7 +7,7 @@
  * Sources:
  *   https://es.wikipedia.org/wiki/Clave_Única_de_Identificación_Tributaria
  *
- * TAX PERSON/ENTITY
+ * PERSON/ENTITY
  */
 
 import * as exceptions from '../exceptions'

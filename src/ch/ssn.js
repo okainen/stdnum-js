@@ -5,7 +5,7 @@
  * to identify individuals for taxation and pension purposes.
  * The number is validated using EAN-13, though dashes are substituted for dots.
  *
- * Source
+ * Sources:
  *   https://en.wikipedia.org/wiki/National_identification_number#Switzerland
  *   https://de.wikipedia.org/wiki/Sozialversicherungsnummer#Versichertennummer
  *

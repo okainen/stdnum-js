@@ -16,14 +16,12 @@
  * of all numbers) are in use with invalid check digits so this test is disabled
  * by default.
  *
- * More information:
- *
- * https://www.infomex.org.mx/jspsi/documentos/2005/seguimiento/06101/0610100162005_065.doc
- * https://es.wikipedia.org/wiki/Registro_Federal_de_Contribuyentes_(M%C3%A9xico)
+ * Sources:
+ *   https://www.infomex.org.mx/jspsi/documentos/2005/seguimiento/06101/0610100162005_065.doc
+ *   https://es.wikipedia.org/wiki/Registro_Federal_de_Contribuyentes_(M%C3%A9xico)
  *
  * An online validation service is available at:
- *
- * https://portalsat.plataforma.sat.gob.mx/ConsultaRFC/
+ *   https://portalsat.plataforma.sat.gob.mx/ConsultaRFC/
  *
  * VAT  PERSON/ENTITY
  */

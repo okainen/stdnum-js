@@ -19,11 +19,11 @@
  * The last digit is the check digit, which is used to verify the number
  * was correctly typed.
  *
- * Source
- *    https://es.wikipedia.org/wiki/Identificaci%C3%B3n_tributaria
- *    https://www.listasal.info/articulos/nit-el-salvador.shtml
- *    https://tramitesyrequisitos.com/el-salvador/nit/#Estructura_del_NIT
- *    https://www.svcommunity.org/forum/programacioacuten/como-calcular-digito-verificador-del-dui-y-nit/msg951882/#msg951882
+ * Sources:
+ *   https://es.wikipedia.org/wiki/Identificaci%C3%B3n_tributaria
+ *   https://www.listasal.info/articulos/nit-el-salvador.shtml
+ *   https://tramitesyrequisitos.com/el-salvador/nit/#Estructura_del_NIT
+ *   https://www.svcommunity.org/forum/programacioacuten/como-calcular-digito-verificador-del-dui-y-nit/msg951882/#msg951882
  *
  * PERSON/ENTITY
  */

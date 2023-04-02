@@ -5,7 +5,7 @@
  * number consists of 13 digits and contains information about a person's date
  * of birth, gender and whether the person is a citizen or permanent resident.
  *
- * Source
+ * Sources:
  *   https://en.wikipedia.org/wiki/South_African_identity_card
  *   http://www.dha.gov.za/index.php/identity-documents2
  *

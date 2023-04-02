@@ -8,7 +8,7 @@
  * The number consists of 8 (older numbers) or 9 digits and includes a check
  * digit but otherwise without structure.
  *
- * More information:
+ * Sources:
  *   https://en.wikipedia.org/wiki/Tax_file_number
  *   https://www.ato.gov.au/Individuals/Tax-file-number/
  *

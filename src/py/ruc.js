@@ -1,5 +1,4 @@
 /**
- *
  * Paraguay RUC numbers
  *
  * RUC number (Registro Único del Contribuyentes, Paraguay tax number).

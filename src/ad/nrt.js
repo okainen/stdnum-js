@@ -7,8 +7,8 @@
  * This number consists of one letter indicating the type of entity, then 6
  * digits, followed by a check letter.
  *
- * More information:
- * https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Andorra-TIN.pdf
+ * Sources:
+ *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Andorra-TIN.pdf
  *
  * PERSON/ENTITY
  */

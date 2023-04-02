@@ -5,9 +5,9 @@
  * number for businesses. National entities are assigned a 9-digit number, while
  * local units append 5 digits to form a 14-digit number.
  *
- * Source:
- *    https://bip.stat.gov.pl/en/regon/
- *    https://wyszukiwarkaregon.stat.gov.pl/appBIR/index.aspx
+ * Sources:
+ *   https://bip.stat.gov.pl/en/regon/
+ *   https://wyszukiwarkaregon.stat.gov.pl/appBIR/index.aspx
  *
  * ENTITY
  */

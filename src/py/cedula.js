@@ -1,5 +1,4 @@
 /**
- *
  * Paraguay Identity Card numbers
  *
  * CI number (Cedula de la Identidad Civil).
@@ -9,7 +8,7 @@
  * The CI number is 5-7 digits.
  *
  * Sources:
- *     https://es.wikipedia.org/wiki/C%C3%A9dula_de_Identidad_(Paraguay)
+ *   https://es.wikipedia.org/wiki/C%C3%A9dula_de_Identidad_(Paraguay)
  *
  * PERSON
  */

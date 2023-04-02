@@ -4,9 +4,9 @@
  * The Personenidentifikationsnummer (PEID) is an numeric code up to 12 digits
  * used to identify entities and individuals residing in Liechtenstein.
  *
- * Source:
- *    https://www.oera.li/
- *    https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/LIECHTENSTEIN%20TIN.pdf
+ * Sources:
+ *   https://www.oera.li/
+ *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/LIECHTENSTEIN%20TIN.pdf
  *
  * PERSON/ENTITY
  */

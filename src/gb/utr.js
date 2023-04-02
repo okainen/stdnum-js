@@ -4,8 +4,8 @@
  * A UTR (unique taxpayer reference) is a 10 digit number used to identify UK
  * taxpayers who have to submit a tax return.
  *
- * Source
- *    https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/UK-TIN.pdf
+ * Sources:
+ *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/UK-TIN.pdf
  *
  * PERSON
  */

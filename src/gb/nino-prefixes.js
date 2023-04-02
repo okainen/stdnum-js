@@ -1,4 +1,4 @@
-// Source: https://webarchive.nationalarchives.gov.uk/ukgwa/20120207170042/http://www.hmrc.gov.uk/softwaredevelopers/rti/mig-rti-nvreq.pdf
+// Sources: https://webarchive.nationalarchives.gov.uk/ukgwa/20120207170042/http://www.hmrc.gov.uk/softwaredevelopers/rti/mig-rti-nvreq.pdf
 // (Page 46)
 const PREFIXES = new Set([
   'AA',

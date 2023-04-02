@@ -17,10 +17,10 @@
  * The 13 digit e-CF starts with an E followed a 2-digit document type and an
  * 8-digit serial number.
  *
- * Source
- *    https://www.dgii.gov.do/
- *    https://dgii.gov.do/workshopProveedoresTI-eCE/Documents/Norma05-19.pdf
- *    https://dgii.gov.do/cicloContribuyente/facturacion/comprobantesFiscales/Paginas/tiposComprobantes.aspx
+ * Sources:
+ *   https://www.dgii.gov.do/
+ *   https://dgii.gov.do/workshopProveedoresTI-eCE/Documents/Norma05-19.pdf
+ *   https://dgii.gov.do/cicloContribuyente/facturacion/comprobantesFiscales/Paginas/tiposComprobantes.aspx
  *
  * VAT ENTITY
  */

@@ -12,10 +12,10 @@
  * It seems to be usual for the leading zeroes in each of the three parts to be
  * omitted.
  *
- * Source
- *    https://www.hacienda.go.cr/consultapagos/ayuda_cedulas.htm
- *    https://www.procomer.com/downloads/quiero/guia_solicitud_vuce.pdf (page 11)
- *    https://www.hacienda.go.cr/ATV/frmConsultaSituTributaria.aspx
+ * Sources:
+ *   https://www.hacienda.go.cr/consultapagos/ayuda_cedulas.htm
+ *   https://www.procomer.com/downloads/quiero/guia_solicitud_vuce.pdf (page 11)
+ *   https://www.hacienda.go.cr/ATV/frmConsultaSituTributaria.aspx
  *
  * PERSON
  */

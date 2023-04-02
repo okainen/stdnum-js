@@ -5,7 +5,7 @@
  * to identify businesses and individuals for tax purposes. The number consists of 8 or 9 digits
  * where the last digit is a check digit.
  *
- * Source
+ * Sources:
  *   https://www.ird.govt.nz/
  *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/New%20Zealand-TIN.pdf
  *

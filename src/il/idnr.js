@@ -4,7 +4,7 @@
 * The identity number (Mispar Zehut, מספר זהות) is issued at birth to Israeli
 * citizens. The number consists of nine digits and includes a check digit.
 
-* Source
+* Sources:
 *   https://en.wikipedia.org/wiki/National_identification_number#Israel
 *   https://en.wikipedia.org/wiki/Israeli_identity_card
 *   https://he.wikipedia.org/wiki/מספר_זהות_(ישראל)

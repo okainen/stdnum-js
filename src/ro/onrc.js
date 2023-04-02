@@ -7,7 +7,7 @@
  * registration year. This number can change when registration information
  * changes.
  *
- * Source
+ * Sources:
  *
  * ENTITY
  */

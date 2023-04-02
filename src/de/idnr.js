@@ -6,7 +6,7 @@
  * the Steuernummer. The number consists of 11 digits and does not embed any
  * personal information.
  *
- * Source
+ * Sources:
  *   https://de.wikipedia.org/wiki/Steuerliche_Identifikationsnummer
  *   http://www.identifikationsmerkmal.de/
  *

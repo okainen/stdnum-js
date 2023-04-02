@@ -1,5 +1,4 @@
 /**
- *
  * UID (Umsatzsteuer-Identifikationsnummer, Austrian VAT number).
  *
  * The Austrian UID is a 9-digit number that starts with a U (optionally

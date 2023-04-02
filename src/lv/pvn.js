@@ -6,7 +6,7 @@
  * case it should be the same as the personal code (personas kods)). Personal
  * codes start with 6 digits to denote the birth date in the form ddmmyy.
  *
- * Source
+ * Sources:
  *
  * PERSON/ENTITY
  */

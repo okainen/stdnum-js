@@ -1,13 +1,11 @@
 /**
- *
  * NIPT (Numri i Identifikimit për Personin e Tatueshëm, Albanian VAT number)
  *
  * The Albanian NIPT is a 10-digit number with the first and last character
  * being letters.
  *
  * Sources:
- *
- * https://en.wikipedia.org/wiki/VAT_identification_number
+ *   https://en.wikipedia.org/wiki/VAT_identification_number
  *
  * PERSON/ENTITY
  */

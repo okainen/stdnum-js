@@ -6,7 +6,7 @@
  * consists of up to nine digits (the leading zeros are commonly omitted) and
  * contains a simple checksum.
  *
- * Source:
+ * Sources:
  *   https://en.wikipedia.org/wiki/National_identification_number#Netherlands
  *   https://nl.wikipedia.org/wiki/Burgerservicenummer
  *   http://www.burgerservicenummer.nl/

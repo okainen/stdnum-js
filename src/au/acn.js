@@ -4,8 +4,8 @@
  * The Australian Company Number (ACN) is a company identifier issued by the
  * Australian Securities and Investments Commission.
  *
- * Source:
- *    https://en.wikipedia.org/wiki/Australian_Company_Number
+ * Sources:
+ *   https://en.wikipedia.org/wiki/Australian_Company_Number
  *
  * ENTITY
  */

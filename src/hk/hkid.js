@@ -8,7 +8,7 @@
  * All the letters and numerals of the HKID number, including the check digit without the bracket, are used
  * as the identifier equivalent to TIN for individuals.
  *
- * Source
+ * Sources:
  *   https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Hong-Kong-TIN.pdf
  *   http://www.immd.gov.hk/eng/services/hkid/general_info.html
  *
